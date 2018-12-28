@@ -17,7 +17,7 @@ Package.onUse(function (api) {
 
   // 导出模块的写法
   // api.use('ecmascript');
-  // api.mainModule('doctor.js');
+  // api.mainModule('doctor.js', 'server');
 
   // 导出全局的写法
   api.export('Doctor', 'server');
